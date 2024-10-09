@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: "Noto Sans", system-ui;
+  }
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+.p-menubar {
+  @apply container mx-auto;
+}
+/* .p-menubar-item-link {
+  @apply !text-primary-contrast;
+  &:hover {
+    @apply !text-primary;
+  }
+} */
